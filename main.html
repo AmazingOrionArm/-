@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2019Auto</title>
+    <script type="text/javascript">
+	var q =0.8;
+	window.onload=function(){
+            setInterval(function(){
+	    	var box = document.getElementById("box");
+	    	box.style.opacity=q;
+	    	if(q==0.8){q=0;}
+		else{q=0.8;};
+       	    },2550)
+	};
+    </script>
+    <style type = "text/css">
+        #A1{margin-bottom:-4px;width:45px;height:26px;background: -webkit-linear-gradient(left top,#414149,#3E4147);background: -o-linear-gradient(bottom right,#414149,#3E4147);background: -moz-linear-gradient(bottom right,#414149,#3E4147);background: linear-gradient(to bottom right,#414149,#3E4147);display:inline-block;text-align:center;}
+        #A2{margin-bottom:-4px;width:150px;height:26px;background: -webkit-linear-gradient(left top,#414149,#3E4147);background: -o-linear-gradient(bottom right,#414149,#3E4147);background: -moz-linear-gradient(bottom right,#414149,#3E4147);background: linear-gradient(to bottom right,#414149,#3E4147);display:inline-block;}
+        #A3{margin-bottom:-4px;width:70px;height:26px;background: -webkit-linear-gradient(left top,#414149,#3E4147);background: -o-linear-gradient(bottom right,#414149,#3E4147);background: -moz-linear-gradient(bottom right,#414149,#3E4147);background: linear-gradient(to bottom right,#414149,#3E4147);display:inline-block;text-align:center;}
+        #B1{margin-bottom:-4px;width:45px;height:26px;background: -webkit-linear-gradient(left top,#505460,#434252);background: -o-linear-gradient(bottom right,#505460,#434252);background: -moz-linear-gradient(bottom right,#505460,#434252);background: linear-gradient(to bottom right,#505460,#434252);display:inline-block;text-align:center;}
+        #B2{margin-bottom:-4px;width:150px;height:26px;background: -webkit-linear-gradient(left top,#505460,#434252);background: -o-linear-gradient(bottom right,#505460,#434252);background: -moz-linear-gradient(bottom right,#505460,#434252);background: linear-gradient(to bottom right,#505460,#434252);display:inline-block;}
+        #B3{margin-bottom:-4px;;width:70px;height:26px;background: -webkit-linear-gradient(left top,#505460,#434252);background: -o-linear-gradient(bottom right,#505460,#434252);background: -moz-linear-gradient(bottom right,#505460,#434252);background: linear-gradient(to bottom right,#505460,#434252);display:inline-block;text-align:center;}
+        #BB{margin-bottom:0px;height:40px;background: -webkit-linear-gradient(left top,#000000,#000000);background: -o-linear-gradient(bottom right,#000000,#000000);background: -moz-linear-gradient(bottom right,#000000,#000000);background: linear-gradient(to bottom right,#000000,#000000);display:inline-block;}
+    	.box{text-align:center;position:relative;top:5px;font-size:20px;width:630px;height:24px;background-color:black;color:sandybrown;opacity:0;transition:opacity 2.5s;}
+	#green{}
+	#yellow{}
+	#red{}
+    </style>
+</head>
+<body style="margin-left:0px;margin-top:0px;background-color:black">
+    <div style="position:absolute;top:10px;left:24px;width:85px;height:28px;background-color:white;border-radius:10px;text-align:center;left:40px;">
+        <font id="PAGE" face="sans-serif" color="black" size="4" style="position:relative;top:4px;">　</font></div>
+    <div style="background-color:sandybrown;margin-left:238px;height:40px;width:395px"><img src="TaiwanTech.png" width="105" hight="40" style="position:absolute;left:240px"></div>
+    <div style="border-top: 20.2px solid black;border-bottom: 20.1px solid black;border-right: 28px solid sandybrown;display:inline-block;position:absolute;top:0px;left:210px" > </div>
+    <div id="BB" style="width:80px;position:absolute;top:45px;left:11px;"><font color="white" margin-bottom="-40px" style="margin-bottom:-40px">序號<br>Index</font></div>
+    <div id="BB" style="width:170px;position:absolute;top:45px;left:60px;"><font color="white" >顧客Customer</font></div>
+    <div id="BB" style="width:65px;position:absolute;top:45px;left:210px;"><font color="white" >訂購時間<br>Time</font></div>
+    <div id="B1" style="position:absolute;top:97px;left:9px;"><font id="A11T" color="white" >-</font></div>
+    <div id="B2" style="position:absolute;top:97px;left:56px;"><font id="A11N" color="ff8c00" >　-</font></div>
+    <div id="B3" style="position:absolute;top:97px;left:208px;"><font id="A11R" color="white" >-</font></div>
+    <div id="A1" style="position:absolute;top:122px;left:9px;"><font id="B11T" color="white" >-</font></div>
+    <div id="A2" style="position:absolute;top:122px;left:56px;"><font id="B11N" color="#ff8c00" >　-</font></div>
+    <div id="A3" style="position:absolute;top:122px;left:208px;"><font id="B11R" color="white" >-</font></div>
+    <div id="B1" style="position:absolute;top:147px;left:9px;"><font id="A12T" color="white" >-</font></div>
+    <div id="B2" style="position:absolute;top:147px;left:56px;"><font id="A12N" color="#ff8c00" >　-</font></div>
+    <div id="B3" style="position:absolute;top:147px;left:208px;"><font id="A12R" color="white" >-</font></div>
+    <div id="A1" style="position:absolute;top:172px;left:9px;"><font id="B12T" color="white" >-</font></div>
+    <div id="A2" style="position:absolute;top:172px;left:56px;"><font id="B12N" color="#ff8c00" >　-</font></div>
+    <div id="A3" style="position:absolute;top:172px;left:208px;"><font id="B12R" color="white" >-</font></div>
+    <div id="B1" style="position:absolute;top:197px;left:9px;"><font id="A13T" color="white" >-</font></div>
+    <div id="B2" style="position:absolute;top:197px;left:56px;"><font id="A13N" color="#ff8c00" >　-</font></div>
+    <div id="B3" style="position:absolute;top:197px;left:208px;"><font id="A13R" color="white" >-</font></div>
+    <div id="A1" style="position:absolute;top:222px;left:9px;"><font id="B13T" color="white" >-</font></div>
+    <div id="A2" style="position:absolute;top:222px;left:56px;"><font id="B13N" color="#ff8c00" >　-</font></div>
+    <div id="A3" style="position:absolute;top:222px;left:208px;"><font id="B13R" color="white" >-</font></div>
+    <div id="B1" style="position:absolute;top:247px;left:9px;"><font id="A14T" color="white" >-</font></div>
+    <div id="B2" style="position:absolute;top:247px;left:56px;"><font id="A14N" color="#ff8c00" >　-</font></div>
+    <div id="B3" style="position:absolute;top:247px;left:208px;"><font id="A14R" color="white" >-</font></div>
+    <div id="A1" style="position:absolute;top:272px;left:9px;"><font id="B14T" color="white" >-</font></div>
+    <div id="A2" style="position:absolute;top:272px;left:56px;"><font id="B14N" color="#ff8c00" >　-</font></div>
+    <div id="A3" style="position:absolute;top:272px;left:208px;"><font id="B14R" color="white" >-</font></div>
+    <div id="B1" style="position:absolute;top:296px;left:9px;"><font id="A15T" color="white" >-</font></div>
+    <div id="B2" style="position:absolute;top:296px;left:56px;"><font id="A15N" color="#ff8c00" >　-</font></div>
+    <div id="B3" style="position:absolute;top:296px;left:208px;"><font id="A15R" color="white" >-</font></div>
+
+    <table align="center" valign="center" BORDER="1" width="610px" margin-right="0px" style="border-left:0px;border-right:0px;">
+        <tr>
+            <td rowspan=3 width="44%" height="278px" style="border-left:0px" >
+            </td>
+            <td style="border-right:0px;">
+		<div style="position:absolute;top:53px;left:310px;width:300px;height:35px;background-color:black;">
+			<font id="machine" color="#2894ff" size="5px">咖啡機</font>
+		</div>
+		
+		<div style="position:absolute;top:87px;left:325px;width:300px;height:35px;background-color:black;">
+			<font color="white" >盛裝杯數　　　　　</font><font color="white" >等候人次</font><br><font color="white" >--</font>
+		</div>
+		<div style="position:absolute;top:108px;left:325px;width:100px;height:35px;background-color:black;">
+			<font id="cup" color="orangered" size="5px">-</font>
+		</div>
+		<div style="position:absolute;top:108px;left:470px;width:100px;height:35px;background-color:black;">
+			<font id="waiting" color="white" size="5px">-</font>
+		</div>
+		<div style="position:absolute;top:140px;left:325px;width:300px;height:35px;background-color:black;">
+			<font color="white" >平均等候時間　　　</font><font color="white" >總計人次</font>
+		</div>
+		<div style="position:absolute;top:161px;left:325px;width:100px;height:35px;background-color:black;">
+			<font id="average" color="gray" size="5px">-</font>
+		</div>
+		<div style="position:absolute;top:161px;left:470px;width:100px;height:35px;background-color:black;">
+			<font id="total" color="gray" size="5px">-</font>
+		</div>
+		
+		
+		<div style="position:absolute;top:200px;left:310px;width:300px;height:35px;background-color:black;">
+			<font id="machine2_name" color="#2894ff" size="5px">機器人</font>
+		</div>
+		<div style="position:absolute;top:242px;left:325px;width:300px;height:35px;background-color:black;">
+			<font id="report" color="green" size="6px"> -</font><br>
+		</div>
+		<div style="position:absolute;top:200px;left:460px;width:300px;height:35px;background-color:black;">
+			<font id="machine2_name" color="#2894ff" size="5px">剩餘杯數</font>
+		</div>
+		<div style="position:absolute;top:242px;left:475px;width:300px;height:35px;background-color:black;">
+			<font id="remain" color="green" size="6px"> -</font><br>
+		</div>
+	    </td>
+	</div>
+        </tr>
+    </table>
+    <div class="box" id="box"></div>
+</body>
+    <script>
+		var time = 0;
+		setInterval(function(){
+			if(time < 9)
+			{
+				time+=1;
+			}
+			else if(time >= 10)
+			{
+				time=0;
+			}
+			var xh = new XMLHttpRequest();
+			xh.onreadystatechange = function() 
+			{
+				if(xh.readyState == 4)
+				{
+					var y = JSON.parse(JSON.parse(xh.responseText));
+					console.log(typeof xh.responseText);
+					console.log(typeof y);
+					console.log(typeof yy);
+					console.log(xh.responseText);
+					console.log(y);
+					if(y["CUP"]==3)
+					{
+						document.getElementById("cup").innerHTML = "<font color='green'>3</font>";
+					}
+					else
+					{
+						document.getElementById("cup").innerHTML = y["CUP"]
+					};
+					document.getElementById("average").innerHTML = y["AVERAGE"];
+					document.getElementById("waiting").innerHTML = y["WAITTIME"];
+					document.getElementById("total").innerHTML = y["TOTAL"];
+					document.getElementById("machine2_name").innerHTML = y["RONAME"];
+					document.getElementById("report").innerHTML = y["ROSTATUS"];
+
+					//如果時間介在0-5秒間，"或"第十筆資料為空時顯示第一頁
+					if(time < 5 || y["B15T"] == "--")
+					{
+						//前9筆
+						document.getElementById("A11T").innerHTML = y["A11T"],
+						document.getElementById("A11N").innerHTML = y["A11N"],
+						document.getElementById("A11R").innerHTML = y["A11R"],
+						document.getElementById("B11T").innerHTML = y["B11T"],
+						document.getElementById("B11N").innerHTML = y["B11N"],
+						document.getElementById("B11R").innerHTML = y["B11R"],
+						document.getElementById("A12T").innerHTML = y["A12T"],
+						document.getElementById("A12N").innerHTML = y["A12N"],
+						document.getElementById("A12R").innerHTML = y["A12R"],
+						document.getElementById("B12T").innerHTML = y["B12T"],
+						document.getElementById("B12N").innerHTML = y["B12N"],
+						document.getElementById("B12R").innerHTML = y["B12R"],
+						document.getElementById("A13T").innerHTML = y["A13T"],
+						document.getElementById("A13N").innerHTML = y["A13N"],
+						document.getElementById("A13R").innerHTML = y["A13R"],
+						document.getElementById("B13T").innerHTML = y["B13T"],
+						document.getElementById("B13N").innerHTML = y["B13N"],
+						document.getElementById("B13R").innerHTML = y["B13R"],
+						document.getElementById("A14T").innerHTML = y["A14T"],
+						document.getElementById("A14N").innerHTML = y["A14N"],
+						document.getElementById("A14R").innerHTML = y["A14R"],
+						document.getElementById("B14T").innerHTML = y["B14T"],
+						document.getElementById("B14N").innerHTML = y["B14N"],
+						document.getElementById("B14R").innerHTML = y["B14R"],
+						document.getElementById("A15T").innerHTML = y["A15T"],
+						document.getElementById("A15N").innerHTML = y["A15N"],
+						document.getElementById("A15R").innerHTML = y["A15R"]
+					}
+					//如果時間介在5-10秒間，"且"第十筆資料"不"為空時顯示第二頁
+					else if(time >= 5 && y["B15T"] != "--")
+					{
+						//後9筆
+						document.getElementById("A11T").innerHTML = y["B15T"],
+						document.getElementById("A11N").innerHTML = y["B15N"],
+						document.getElementById("A11R").innerHTML = y["B15R"],
+						document.getElementById("B11T").innerHTML = y["A16T"],
+						document.getElementById("B11N").innerHTML = y["A16N"],
+						document.getElementById("B11R").innerHTML = y["A16R"],
+						document.getElementById("A12T").innerHTML = y["B16T"],
+						document.getElementById("A12N").innerHTML = y["B16N"],
+						document.getElementById("A12R").innerHTML = y["B16R"],
+						document.getElementById("B12T").innerHTML = y["A17T"],
+						document.getElementById("B12N").innerHTML = y["A17N"],
+						document.getElementById("B12R").innerHTML = y["A17R"],
+						document.getElementById("A13T").innerHTML = y["B17T"],
+						document.getElementById("A13N").innerHTML = y["B17N"],
+						document.getElementById("A13R").innerHTML = y["B17R"],
+						document.getElementById("B13T").innerHTML = y["A18T"],
+						document.getElementById("B13N").innerHTML = y["A18N"],
+						document.getElementById("B13R").innerHTML = y["A18R"],
+						document.getElementById("A14T").innerHTML = y["B18T"],
+						document.getElementById("A14N").innerHTML = y["B18N"],
+						document.getElementById("A14R").innerHTML = y["B18R"],
+						document.getElementById("B14T").innerHTML = y["A19T"],
+						document.getElementById("B14N").innerHTML = y["A19N"],
+						document.getElementById("B14R").innerHTML = y["A19R"],
+						document.getElementById("A15T").innerHTML = y["B19T"],
+						document.getElementById("A15N").innerHTML = y["B19N"],
+						document.getElementById("A15R").innerHTML = y["B19R"]
+					}				
+					
+					document.getElementById("PAGE").innerHTML = y["PAGE"],
+					console.log("update complete")
+				}
+			};
+			xh.open("GET","PiDBii.json",true);
+			xh.send();
+		},1000)
+    </script>
+</html>
